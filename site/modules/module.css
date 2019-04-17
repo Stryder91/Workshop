@@ -1,0 +1,5 @@
+.rond{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 10px;
+}

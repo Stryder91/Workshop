@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+/*=============================================
+HEADER
+
+/*=====  End of Hero0  ======*/
+    header {
+        height: 100px;
+        width:100vw;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: grey 1px solid;  
+        position: sticky;
+        top: 0;
+        background: white;
+        box-shadow: grey 3px 3px 5px;
+    }
+    .headerItem{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imglogo {
+        width: 50%;
+    }
+    @media (max-width:812px){
+        .imglogo{
+            width: 100%;
+            margin-right: 80px;
+        } 
+            
+    }
+    .header__item{
+        color: black;
+        font-weight: bold;
+        padding: 5%;
+    }
+    .headerConnexion{
+        background: #D44B88;
+        border-radius: 5px;
+        padding: 2%;
+        color: white;
+    }
+    
+    
+    
+    /*===== End of Header ======*/
+    
+    
+    
+    
+    /*=============================================
+    =            Hero0            =
+    =============================================*/
+    .hero0{
+        background:url('../image/hero.png');
+        background-size: cover;
+        line-height: 10%;   
+    }
+    .h1{
+        font-size: 2em;
+        color: #D44B88;
+    }
+    .rejoin {
+        border: 3px #D44B88 solid;
+        padding: 5% 10%;
+        border-radius: 50px;
+        color: #D44B88;
+        font-weight: bold;   
+    }
+
+
+
+/*=============================================
+Hero 1 Section
+=============================================*/
+
+.hero1TitleContainer{
+    width: 50%; 
+    text-align: center;
+    background: #D44B88;
+    color: white;   
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+
+@media (max-width:812px){
+
+    .container {
+        width: 90%;
+    }
+    .hero1Item{
+        width: 100%;
+    }
+}
+
+.hero1Img1{
+    border: #FA6A3E 3px solid;
+    border-radius: 50%; 
+    padding: 5%;
+    box-shadow: #FA6A3E 3px 3px 5px;
+}
+.hero1Img2{
+    border:  #8EB74E 3px solid;
+    border-radius: 50%; 
+    padding: 5%;
+    box-shadow: #8EB74E 3px 3px 5px;
+    
+}
+.hero1Img3{
+    border: #D6548E 3px solid;
+    border-radius: 50%; 
+    padding: 5%;
+    box-shadow: #D6548E  3px 3px 5px;
+    
+}
+.hero1Img4{
+    
+    border: #4D90C0 3px solid;
+    border-radius: 50%; 
+    padding: 5%;
+    box-shadow: #4D90C0 3px 3px 5px;
+    
+}
+.hero1Text1{
+    color: #FA6A3E;
+    font-size: 1.6em; 
+    font-weight: bold;
+}
+.hero1Text2{
+    color: #8EB74E;
+    font-size: 1.6em; 
+    font-weight: bold;
+}
+.hero1Text3{
+    color: #D6548E;
+    font-size: 1.6em; 
+    font-weight: bold;
+}
+.hero1Text4{
+    color: #4D90C0;
+    font-size: 1.6em; 
+    font-weight: bold;
+}
+
+/*===== End of hero 1 valeurs ajouté ======*/
+
+
+/*=============================================
+= Hero 2 section =
+=============================================*/
+.hero2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleContainerhero2{
+    margin: auto;   
+    text-align: center;
+    border-radius: 5px;
+    background: #307EB6;
+    color: white;
+    text-transform: uppercase;
+}
+.articlehero2{
+    margin-top:-5%;
+    margin-bottom: -5%;
+}
+.ooo {
+    width: 100%;
+}
+.hero2Item {
+    border: grey 1px solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 15%; 
+    color: black;   
+}
+
+.hero2Item1:hover{
+    border: #F88C00 solid 2px;
+}
+.hero2Item2:hover{
+    border: #D44B88 solid 2px;
+}
+.hero2Item3:hover{
+    border: #307EB6 solid 2px;
+}
+.explorer {
+    position: relative;
+    transform: translate(0, 50%);
+    background: white;
+    border-radius: 20px;
+    padding: 5%;
+    width: 70%;
+    margin: auto;
+    color: black;
+}
+.explorer1{
+    border: 2px solid #F88C00;
+}
+.explorer2{
+    border: 2px solid #D44B88;
+}
+.explorer3{
+    border: 2px solid #307EB6;
+}
+
+/*===== End of Hero 2 section ======*/
+
+
+/*=============================================
+=            Hero3            =
+=============================================*/
+.h5{
+    margin-bottom: 10%;
+    background: white;
+    padding: 2%;
+    border-radius: 3px;
+}
+.hero3 {
+    background: #D44B88;
+}
+
+
+.hero3--first{
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    color: #D44B88;
+}
+@media (max-width:812px){
+    .hero3{
+        margin-top: 80%;
+    }
+}
+.hero3--second {
+    margin-top: 2%;
+    color: white;
+}
+
+.logoContact{
+    width: 10%;
+    padding-right: 10px;
+}
+.localisation {
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+textarea{
+    background: white;
+}
+.checkbox{
+    background: white;
+}
+
+/*=====  End of Hero3  ======*/
+
+
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+
+.footer {
+    color: black;
+    margin: 0;   
+}
+
+/*=====  End of FOOTER  ======*/
+
+

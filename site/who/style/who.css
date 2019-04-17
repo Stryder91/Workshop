@@ -1,0 +1,75 @@
+.h2 {
+    color: #D44B88;
+    font-size: 3em;
+}
+
+.h5{
+    color: white;
+    padding-top: 5%;
+    font-size: 2em;
+    padding-bottom: 5%;
+}
+.h6 {
+    font-size: 2em;
+    font-weight: bold;
+}
+body {
+    background: #F4F1F0;
+}
+
+
+/*=============================================
+=            Hero1            =
+=============================================*/
+.actionMain {
+    padding-top: 5%;
+}
+.action {
+    background: #D44B88;
+    padding: 5% 10%;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+.hero1Main{
+    background: url('../image/eemi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.opacityHero1{
+    background: white;
+    opacity: 0.8;
+    border-radius: 10px;
+
+}
+.textHero1 {
+    padding: 5% 20%;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+
+
+/*=====  End of Hero1  ======*/
+
+
+/*=============================================
+=            Hero2            =
+=============================================*/
+.hero2Main{
+    background: white;
+    border: grey 1px solid;
+    border-radius: 10px;
+}
+
+.teacher {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 8%;
+}
+
+/*=====  End of Hero2  ======*/
+
+
+

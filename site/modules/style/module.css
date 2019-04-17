@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+.hero1--sub{
+    display: flex;
+}
+.hero1filtre{
+    border: 1px solid grey;
+    border-radius: 5px;
+    
+}
+.filtreTitle{
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+.rond{
+    margin-right: 15px;
+}
+.filtre {
+    line-height: 10%;
+}
+.cours {
+    border: 1px solid grey;
+    padding: 0;
+    margin: 2%;
+    color: black;
+}

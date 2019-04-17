@@ -1,0 +1,15 @@
+
+.custom-purple{
+    color:#d44b88;
+}
+
+.customback-purple{
+    background:#d44b88;
+    margin-top: 30px;
+}
+.custom-btn-radius{
+    border-radius: 15px;
+    height: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
